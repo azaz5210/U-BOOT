@@ -26,7 +26,7 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 ![image](https://user-images.githubusercontent.com/90091174/173049683-bb642d62-b7cd-4fcd-8160-1f5ba809538b.png)
 
-5.安裝qemu
+5.安裝qemu(使用qemu安裝虛擬機)
 指令: sudo apt-get install qemu
 
 6.安裝包
@@ -37,9 +37,17 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
  7.安裝Python(版本1)
    sudo apt-get install python
 
-8.
+8.指令:cd qemu-2.0.0
+     :./configure --target-list=arm-softmmu --audio-drv-list=
 
-.下載linux核心與dtb檔案
+![image](https://user-images.githubusercontent.com/90091174/173354531-367d5024-5ef3-431c-a5e4-83220647a76b.png)
+
+9.指令:sudo make install(約下載10分鐘)
+10.QEMU支援的開發版:qemu-system-arm -M help //列出支援的開發板
+
+![image](https://user-images.githubusercontent.com/90091174/173358916-1e3e4010-873e-4036-9f7d-4f7caa15a631.png)
+
+11.下載linux核心與dtb檔案
 指令:git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/
 
 ![image](https://user-images.githubusercontent.com/90091174/173304836-62110a40-d60a-40e1-b211-7e636a70c1f9.png)
