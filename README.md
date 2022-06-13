@@ -25,3 +25,12 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 檢查版本指令:arm-linux-gnueabi-gcc -v
 
 ![image](https://user-images.githubusercontent.com/90091174/173049683-bb642d62-b7cd-4fcd-8160-1f5ba809538b.png)
+
+5.安裝qemu
+指令: sudo apt-get install qemu
+
+6.下載linux核心與dtb檔案
+
+![image](https://user-images.githubusercontent.com/90091174/173304836-62110a40-d60a-40e1-b211-7e636a70c1f9.png)
+
+7.
