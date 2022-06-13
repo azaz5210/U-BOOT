@@ -3,7 +3,7 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 全稱Universal Boot Loader,是遵循GPL條款的開源程式碼項目
 
-這次是以
+這次是以QEMU搭建linux+u-boot
 
 1.renew file: sudo apt-get update
 
@@ -50,6 +50,19 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 11.下載linux核心與dtb檔案
 指令:git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/
 
-![image](https://user-images.githubusercontent.com/90091174/173304836-62110a40-d60a-40e1-b211-7e636a70c1f9.png)
+或者去linux官網(建議) www.kernel.org
 
-7.
+![image](https://user-images.githubusercontent.com/90091174/173365969-de988204-b55c-40c4-a777-041ef93b27c6.png)
+
+修改核心根目錄的Makefile
+
+![image](https://user-images.githubusercontent.com/90091174/173366274-97681579-f954-433b-876f-e037cbed7ebb.png)
+
+找到這兩行
+
+![image](https://user-images.githubusercontent.com/90091174/173367273-0940c9d5-c612-4e76-957b-38069d5ba57a.png)
+
+更改成
+
+![image](https://user-images.githubusercontent.com/90091174/173367652-3606478b-eb83-4173-9b0a-cf7b712b51e9.png)
+
