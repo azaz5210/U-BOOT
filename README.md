@@ -30,6 +30,7 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 指令: sudo apt-get install qemu
 
 6.下載linux核心與dtb檔案
+指令:git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/
 
 ![image](https://user-images.githubusercontent.com/90091174/173304836-62110a40-d60a-40e1-b211-7e636a70c1f9.png)
 
