@@ -1,4 +1,6 @@
 # U-BOOT
+B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
+
 全稱Universal Boot Loader,是遵循GPL條款的開源程式碼項目
 
 這次是以
