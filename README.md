@@ -66,4 +66,18 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 ![image](https://user-images.githubusercontent.com/90091174/173367652-3606478b-eb83-4173-9b0a-cf7b712b51e9.png)
 
-21
+12.將載好linux解壓縮至桌面，這樣方便使用cd呼叫檔案
+
+13.練習確認檔案位至
+
+![image](https://user-images.githubusercontent.com/90091174/173391614-90559e2d-06bf-4729-9364-f0f979a3c926.png)
+
+14.使用cd進入至linux檔案中 ##指令ls是查看該路徑下檔案
+
+![image](https://user-images.githubusercontent.com/90091174/173396704-2cb2c859-f1f8-4a3d-a341-91a55a4e5fa9.png)
+
+15.編譯核心、模組、dtb檔案
+先安裝東西sudo apt-get install flex 在打下面圖片指令 ##對，我很懶 第二個指令可以跳過  他的檔案他媽的有夠大，會讓你重灌
+
+![image](https://user-images.githubusercontent.com/90091174/173397544-146211b3-3370-4ce8-8f41-72a53c01b862.png)
+
