@@ -32,6 +32,9 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 指令: sudo apt-get install qemu
 
 6.安裝包
+
+![image](https://user-images.githubusercontent.com/90091174/173517966-ffe7c1ba-e32a-4dc0-85b7-2922eea87507.png)
+
 指令:wget http://wiki.qemu-project.org/download/qemu-2.0.0.tar.bz2
 
 指令:tar xjvf qemu-2.0.0.tar.bz2
