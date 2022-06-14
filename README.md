@@ -7,31 +7,32 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 這次是以QEMU搭建linux+u-boot
 
-1.renew file: sudo apt-get update
+# 1.renew file: sudo apt-get update
 
 ![image](https://user-images.githubusercontent.com/90091174/173024997-d05fa358-7852-4b65-a89f-d3b9dc7274cf.png)
 
-2.install u-boot tools
+# 2.install u-boot tools
 
 ![image](https://user-images.githubusercontent.com/90091174/173028194-03231ffc-bc79-400d-8de3-665f958ee979.png)
 
-3.切換權限至root(若不想切也沒差，只是在指令方面都要用sudo)
+# 3.切換權限至root(若不想切也沒差，只是在指令方面都要用sudo)
 
 ![image](https://user-images.githubusercontent.com/90091174/173046734-96dc8ac6-73d6-437e-a3dc-e1a2dc0bcd58.png)
 
 ![image](https://user-images.githubusercontent.com/90091174/173050283-011fbf76-80f8-404e-9dad-c434fc5e2ce1.png)
 
-4.安裝:交叉編譯器
+# 4.安裝:交叉編譯器
+
 指令:apt-get install gcc-arm-linux-gnueabi   ##若此無法下載請先google找如何安裝gcc
 
 檢查版本指令:arm-linux-gnueabi-gcc -v
 
 ![image](https://user-images.githubusercontent.com/90091174/173049683-bb642d62-b7cd-4fcd-8160-1f5ba809538b.png)
 
-5.安裝qemu(使用qemu安裝虛擬機)
+# 5.安裝qemu(使用qemu安裝虛擬機)
 指令: sudo apt-get install qemu
 
-6.安裝包
+# 6.安裝包
 
 ![image](https://user-images.githubusercontent.com/90091174/173517966-ffe7c1ba-e32a-4dc0-85b7-2922eea87507.png)
 
@@ -41,8 +42,8 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 GIT:git clone git://git.qemu-project.org/qemu.git
  
- 7.安裝Python(版本1)
- sudo apt-get install python
+## 7.安裝Python(版本1)
+sudo apt-get install python
 
 8.指令:cd qemu-2.0.0
 
@@ -81,7 +82,7 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 
 12.將載好linux解壓縮至桌面，這樣方便使用cd呼叫檔案
 
-13.練習確認檔案位至
+13.練習確認檔案位置
 
 ![image](https://user-images.githubusercontent.com/90091174/173391614-90559e2d-06bf-4729-9364-f0f979a3c926.png)
 
@@ -108,8 +109,12 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 ![image](https://user-images.githubusercontent.com/90091174/173531694-17e55f6b-e4dd-4a80-aa66-e3434a6c68c9.png)
 
 
+16.執行核心
 
-參考資料:
+指令: qemu-system-arm -M vexpress-a9 -m 512M -kernel arch/arm/boot/zImage -dtb arch/arm/boot/dts/vexpress-v2p-ca9.dtb -nographic -append “console=ttyAMA0”
+
+
+# 參考資料:
 
 https://cloud.tencent.com/developer/article/1018022?from=15425
 
