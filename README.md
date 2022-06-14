@@ -7,21 +7,21 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 這次是以QEMU搭建linux+u-boot
 
-# 1.renew file: sudo apt-get update
+## 1.renew file: sudo apt-get update
 
 ![image](https://user-images.githubusercontent.com/90091174/173024997-d05fa358-7852-4b65-a89f-d3b9dc7274cf.png)
 
-# 2.install u-boot tools
+## 2.install u-boot tools
 
 ![image](https://user-images.githubusercontent.com/90091174/173028194-03231ffc-bc79-400d-8de3-665f958ee979.png)
 
-# 3.切換權限至root(若不想切也沒差，只是在指令方面都要用sudo)
+## 3.切換權限至root(若不想切也沒差，只是在指令方面都要用sudo)
 
 ![image](https://user-images.githubusercontent.com/90091174/173046734-96dc8ac6-73d6-437e-a3dc-e1a2dc0bcd58.png)
 
 ![image](https://user-images.githubusercontent.com/90091174/173050283-011fbf76-80f8-404e-9dad-c434fc5e2ce1.png)
 
-# 4.安裝:交叉編譯器
+## 4.安裝:交叉編譯器
 
 指令:apt-get install gcc-arm-linux-gnueabi   ##若此無法下載請先google找如何安裝gcc
 
@@ -29,10 +29,10 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 ![image](https://user-images.githubusercontent.com/90091174/173049683-bb642d62-b7cd-4fcd-8160-1f5ba809538b.png)
 
-# 5.安裝qemu(使用qemu安裝虛擬機)
+## 5.安裝qemu(使用qemu安裝虛擬機)
 指令: sudo apt-get install qemu
 
-# 6.安裝包
+## 6.安裝包
 
 ![image](https://user-images.githubusercontent.com/90091174/173517966-ffe7c1ba-e32a-4dc0-85b7-2922eea87507.png)
 
@@ -45,9 +45,9 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 ## 7.安裝Python(版本1)
 sudo apt-get install python
 
-8.指令:cd qemu-2.0.0
+## 8.指令:cd qemu-2.0.0
 
-  指令:./configure --target-list=arm-softmmu --audio-drv-list=
+指令:./configure --target-list=arm-softmmu --audio-drv-list=
 
 發生錯誤  解決方案 : sudo apt-get install gcc
 
@@ -55,13 +55,13 @@ sudo apt-get install python
 
 ![image](https://user-images.githubusercontent.com/90091174/173523866-d8d8671a-0fbe-4293-a67e-8398f79e9261.png)
 
-9.指令:sudo apt install make
+## 9.指令:sudo apt install make
 
-10.QEMU支援的開發版:qemu-system-arm -M help //列出支援的開發板(執行此碼會發生錯誤，請自行修正)
+## 10.QEMU支援的開發版:qemu-system-arm -M help //列出支援的開發板(執行此碼會發生錯誤，請自行修正)
 
 ![image](https://user-images.githubusercontent.com/90091174/173522755-156a0b7a-3fb1-4fa7-a883-85b7ff92b422.png)
 
-11.下載linux核心與dtb檔案
+## 11.下載linux核心與dtb檔案
 指令:git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/
 
 或者去linux官網(建議) www.kernel.org
@@ -80,17 +80,17 @@ sudo apt-get install python
 
 ![image](https://user-images.githubusercontent.com/90091174/173367652-3606478b-eb83-4173-9b0a-cf7b712b51e9.png)
 
-12.將載好linux解壓縮至桌面，這樣方便使用cd呼叫檔案
+## 12.將載好linux解壓縮至桌面，這樣方便使用cd呼叫檔案
 
-13.練習確認檔案位置
+## 13.練習確認檔案位置
 
 ![image](https://user-images.githubusercontent.com/90091174/173391614-90559e2d-06bf-4729-9364-f0f979a3c926.png)
 
-14.使用cd進入至linux檔案中 ##指令ls是查看該路徑下檔案
+## 14.使用cd進入至linux檔案中 ##指令ls是查看該路徑下檔案
 
 ![image](https://user-images.githubusercontent.com/90091174/173396704-2cb2c859-f1f8-4a3d-a341-91a55a4e5fa9.png)
 
-15.編譯核心、模組、dtb檔案
+## 15.編譯核心、模組、dtb檔案
 
 ##對，我很懶 第二個指令可以跳過  他的檔案他媽的有夠大，會讓你重灌
 
@@ -109,7 +109,7 @@ sudo apt-get install python
 ![image](https://user-images.githubusercontent.com/90091174/173531694-17e55f6b-e4dd-4a80-aa66-e3434a6c68c9.png)
 
 
-16.執行核心
+# 執行核心
 
 指令: qemu-system-arm -M vexpress-a9 -m 512M -kernel arch/arm/boot/zImage -dtb arch/arm/boot/dts/vexpress-v2p-ca9.dtb -nographic -append “console=ttyAMA0”
 
