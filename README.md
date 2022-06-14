@@ -103,6 +103,10 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 
 ![image](https://user-images.githubusercontent.com/90091174/173530927-1517c0a4-e7af-4a6a-8d50-b355e064b3b8.png)
 
+![image](https://user-images.githubusercontent.com/90091174/173531616-a7bd5985-3a22-4015-bea6-cec86005b26c.png)
+
+![image](https://user-images.githubusercontent.com/90091174/173531694-17e55f6b-e4dd-4a80-aa66-e3434a6c68c9.png)
+
 
 
 參考資料:
