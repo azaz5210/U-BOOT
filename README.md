@@ -90,12 +90,12 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 ![image](https://user-images.githubusercontent.com/90091174/173396704-2cb2c859-f1f8-4a3d-a341-91a55a4e5fa9.png)
 
 15.編譯核心、模組、dtb檔案
-先安裝東西sudo apt-get install flex 在打下面圖片指令 
 
 ##對，我很懶 第二個指令可以跳過  他的檔案他媽的有夠大，會讓你重灌
 
 ![image](https://user-images.githubusercontent.com/90091174/173397544-146211b3-3370-4ce8-8f41-72a53c01b862.png)
 
+![image](https://user-images.githubusercontent.com/90091174/173530559-acc260d5-7af8-4820-9b23-2eebae952418.png)
 
 
 
