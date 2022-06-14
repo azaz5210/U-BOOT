@@ -33,8 +33,10 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 6.安裝包
 指令:wget http://wiki.qemu-project.org/download/qemu-2.0.0.tar.bz2
-    :tar xjvf qemu-2.0.0.tar.bz2
- GIT:git clone git://git.qemu-project.org/qemu.git
+
+指令:tar xjvf qemu-2.0.0.tar.bz2
+
+GIT:git clone git://git.qemu-project.org/qemu.git
  
  7.安裝Python(版本1)
    sudo apt-get install python
