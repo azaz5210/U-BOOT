@@ -157,6 +157,16 @@ sudo apt-get install python
 
 指令: qemu-system-arm -M vexpress-a9 -m 512M -kernel arch/arm/boot/zImage -dtb arch/arm/boot/dts/vexpress-v2p-ca9.dtb -nographic -append “console=ttyAMA0”
 
+![image](https://user-images.githubusercontent.com/90091174/173548582-8728278a-b3e0-4b11-a787-7229dbf60fcb.png)
+
+## 關閉qemu
+ps -a檢視程序號
+
+kill -9 pid 關閉程序
+
+![image](https://user-images.githubusercontent.com/90091174/173548864-5f107f41-224c-497c-8abf-289629d91caa.png)
+
+
 
 # 參考資料:
 
