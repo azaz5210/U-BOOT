@@ -7,34 +7,77 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 這次是以QEMU搭建linux+u-boot
 
-## 1.renew file: sudo apt-get update
+# QEMU簡介
 
-![image](https://user-images.githubusercontent.com/90091174/173024997-d05fa358-7852-4b65-a89f-d3b9dc7274cf.png)
+QEMU是一個模擬器，可以模擬CPU，ARM、X86、MIPS等架構
+
+可以模擬的ARM處理器：ARM926E、ARM1136、Cortex-A8/A9
+
+模擬真實的開發板、外設：串列埠、LCD、網絡卡、USB、SD卡…
+
+# 使用QEMU的事情
+
+研究核心虛擬化
+
+模擬CPU，對於晶片公司，流片之前在QEMU上做驗證、模擬、軟硬體協同設計，開發BSP和驅動
+
+模擬開發板，在模擬平臺上進行系統軟體開發、驅動開發
+
+學生、工程師可以利用qemu-system-arm學習嵌入式開發、研究Bootloader 、Linux核心、驅動開發、應用開發等。
+
+# QEMU學習嵌入式的好處
+
+節省學習成本
+
+跳過開發板、硬體的各種“坑”，縮短學習曲線
+
+重構嵌入式知識體系和技能，跟硬體無關的放到QEMU上學習
+
+跟開發板相關的驅動、BSP針對具體開發板深入突破
+
+適應不同CPU、開發板的技術要求
+
+# 正片開始
+
+## 1.renew file
+
+sudo apt-get update
 
 ## 2.install u-boot tools
 
-![image](https://user-images.githubusercontent.com/90091174/173028194-03231ffc-bc79-400d-8de3-665f958ee979.png)
+sudo apt-get install u-boot-tools
 
 ## 3.切換權限至root(若不想切也沒差，只是在指令方面都要用sudo)
 
+
 ![image](https://user-images.githubusercontent.com/90091174/173046734-96dc8ac6-73d6-437e-a3dc-e1a2dc0bcd58.png)
 
-![image](https://user-images.githubusercontent.com/90091174/173050283-011fbf76-80f8-404e-9dad-c434fc5e2ce1.png)
 
 ## 4.安裝:交叉編譯器
 
-指令:apt-get install gcc-arm-linux-gnueabi   ##若此無法下載請先google找如何安裝gcc
+交叉編譯
 
-檢查版本指令:arm-linux-gnueabi-gcc -v
+在一種計算機環境中編譯程式，在另外一種環境下執行。
+
+或者說在一個平臺上編譯生成在另一個平臺上執行的可執行程式碼。
+
+
+指令: apt-get install gcc-arm-linux-gnueabi   ##若此無法下載請先google找如何安裝gcc
+
+檢查版本指令:  arm-linux-gnueabi-gcc -v
+
 
 ![image](https://user-images.githubusercontent.com/90091174/173049683-bb642d62-b7cd-4fcd-8160-1f5ba809538b.png)
 
+
 ## 5.安裝qemu(使用qemu安裝虛擬機)
-指令: sudo apt-get install qemu
+
+指令:  sudo apt-get install qemu
 
 ## 6.安裝包
 
 ![image](https://user-images.githubusercontent.com/90091174/173517966-ffe7c1ba-e32a-4dc0-85b7-2922eea87507.png)
+
 
 指令:wget http://wiki.qemu-project.org/download/qemu-2.0.0.tar.bz2
 
@@ -61,6 +104,7 @@ sudo apt-get install python
 
 ![image](https://user-images.githubusercontent.com/90091174/173522755-156a0b7a-3fb1-4fa7-a883-85b7ff92b422.png)
 
+
 ## 11.下載linux核心與dtb檔案
 指令:git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/
 
@@ -68,15 +112,15 @@ sudo apt-get install python
 
 ![image](https://user-images.githubusercontent.com/90091174/173365969-de988204-b55c-40c4-a777-041ef93b27c6.png)
 
-修改核心根目錄的Makefile
+### 修改核心根目錄的Makefile
 
 ![image](https://user-images.githubusercontent.com/90091174/173366274-97681579-f954-433b-876f-e037cbed7ebb.png)
 
-找到這兩行
+### 找到這兩行
 
 ![image](https://user-images.githubusercontent.com/90091174/173367273-0940c9d5-c612-4e76-957b-38069d5ba57a.png)
 
-更改成
+### 更改成
 
 ![image](https://user-images.githubusercontent.com/90091174/173367652-3606478b-eb83-4173-9b0a-cf7b712b51e9.png)
 
@@ -92,15 +136,15 @@ sudo apt-get install python
 
 ## 15.編譯核心、模組、dtb檔案
 
-##對，我很懶 第二個指令可以跳過  他的檔案他媽的有夠大，會讓你重灌
+### 對，我很懶 第二個指令可以跳過  他的檔案他媽的有夠大，會讓你重灌
 
 ![image](https://user-images.githubusercontent.com/90091174/173397544-146211b3-3370-4ce8-8f41-72a53c01b862.png)
 
-有錯誤再用下圖指令
+## 有錯誤再用下圖指令
 
 ![image](https://user-images.githubusercontent.com/90091174/173530559-acc260d5-7af8-4820-9b23-2eebae952418.png)
 
-成功後
+## 成功後
 
 ![image](https://user-images.githubusercontent.com/90091174/173530927-1517c0a4-e7af-4a6a-8d50-b355e064b3b8.png)
 
