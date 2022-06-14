@@ -50,8 +50,10 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 
 發生錯誤  解決方案 : sudo apt-get install gcc
 
-![image](https://user-images.githubusercontent.com/90091174/173519614-16001df3-d769-467c-b5a6-6bf1fe83361f.png)
+![image](https://user-images.githubusercontent.com/90091174/173523123-147d9b08-2f74-4e00-8ed7-8537a77202da.png)
 
+
+![image](https://user-images.githubusercontent.com/90091174/173519614-16001df3-d769-467c-b5a6-6bf1fe83361f.png)
 
 
 9.指令:sudo apt install make
