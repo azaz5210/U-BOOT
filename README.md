@@ -15,7 +15,7 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 ![image](https://user-images.githubusercontent.com/90091174/173028194-03231ffc-bc79-400d-8de3-665f958ee979.png)
 
-3.切換權限至root
+3.切換權限至root(若不想切也沒差，只是在指令方面都要用sudo)
 
 ![image](https://user-images.githubusercontent.com/90091174/173046734-96dc8ac6-73d6-437e-a3dc-e1a2dc0bcd58.png)
 
