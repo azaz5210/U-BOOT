@@ -95,10 +95,13 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 
 ![image](https://user-images.githubusercontent.com/90091174/173397544-146211b3-3370-4ce8-8f41-72a53c01b862.png)
 
+有錯誤再用下圖指令
+
 ![image](https://user-images.githubusercontent.com/90091174/173530559-acc260d5-7af8-4820-9b23-2eebae952418.png)
 
+成功後
 
-
+![image](https://user-images.githubusercontent.com/90091174/173530927-1517c0a4-e7af-4a6a-8d50-b355e064b3b8.png)
 
 
 
