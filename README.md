@@ -54,8 +54,9 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 
 
 
-9.指令:sudo make install(約下載10分鐘)
-10.QEMU支援的開發版:qemu-system-arm -M help //列出支援的開發板
+9.指令:sudo apt install make
+
+10.QEMU支援的開發版:qemu-system-arm -M help //列出支援的開發板(執行此碼會發生錯誤，請自行修正)
 
 ![image](https://user-images.githubusercontent.com/90091174/173358916-1e3e4010-873e-4036-9f7d-4f7caa15a631.png)
 
