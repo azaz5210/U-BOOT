@@ -48,7 +48,7 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 
   指令:./configure --target-list=arm-softmmu --audio-drv-list=
 
-發生錯誤  解決方案 : sudo 
+發生錯誤  解決方案 : sudo apt-get install gcc
 
 ![image](https://user-images.githubusercontent.com/90091174/173519614-16001df3-d769-467c-b5a6-6bf1fe83361f.png)
 
