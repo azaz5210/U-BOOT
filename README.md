@@ -42,7 +42,7 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 GIT:git clone git://git.qemu-project.org/qemu.git
  
  7.安裝Python(版本1)
-   sudo apt-get install python
+ sudo apt-get install python
 
 8.指令:cd qemu-2.0.0
 
@@ -58,7 +58,7 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 
 10.QEMU支援的開發版:qemu-system-arm -M help //列出支援的開發板(執行此碼會發生錯誤，請自行修正)
 
-![image](https://user-images.githubusercontent.com/90091174/173358916-1e3e4010-873e-4036-9f7d-4f7caa15a631.png)
+![image](https://user-images.githubusercontent.com/90091174/173522755-156a0b7a-3fb1-4fa7-a883-85b7ff92b422.png)
 
 11.下載linux核心與dtb檔案
 指令:git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/
