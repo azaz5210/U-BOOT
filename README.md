@@ -48,6 +48,11 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 
   指令:./configure --target-list=arm-softmmu --audio-drv-list=
 
+發生錯誤  解決方案 : sudo 
+
+![image](https://user-images.githubusercontent.com/90091174/173519614-16001df3-d769-467c-b5a6-6bf1fe83361f.png)
+
+
 
 9.指令:sudo make install(約下載10分鐘)
 10.QEMU支援的開發版:qemu-system-arm -M help //列出支援的開發板
