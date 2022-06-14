@@ -86,4 +86,13 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 ![image](https://user-images.githubusercontent.com/90091174/173397544-146211b3-3370-4ce8-8f41-72a53c01b862.png)
 
 
+
+
+
+
+
+參考資料:
+
 https://cloud.tencent.com/developer/article/1018022?from=15425
+
+https://www.gushiciku.cn/pl/pTch/zh-tw
