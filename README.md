@@ -43,9 +43,8 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 
 8.指令:cd qemu-2.0.0
 
-      :./configure --target-list=arm-softmmu --audio-drv-list=
+  指令:./configure --target-list=arm-softmmu --audio-drv-list=
 
-![image](https://user-images.githubusercontent.com/90091174/173354531-367d5024-5ef3-431c-a5e4-83220647a76b.png)
 
 9.指令:sudo make install(約下載10分鐘)
 10.QEMU支援的開發版:qemu-system-arm -M help //列出支援的開發板
