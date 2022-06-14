@@ -105,3 +105,5 @@ GIT:git clone git://git.qemu-project.org/qemu.git
 https://cloud.tencent.com/developer/article/1018022?from=15425
 
 https://www.gushiciku.cn/pl/pTch/zh-tw
+
+https://cloud.tencent.com/developer/article/1018022?from=15425
