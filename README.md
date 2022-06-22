@@ -190,6 +190,16 @@ deb-src http://gb.archive.ubuntu.com/ubuntu/ trusty-proposed restricted main uni
 
 ![image](https://user-images.githubusercontent.com/90091174/174977809-b9d46f79-546b-47dc-ae67-aa4f8c3675d5.png)
 
+安裝dpkg-dev套件
+
+指令:sudo apt-get -y install dpkg-dev
+
+再重新安裝busybox
+
+成功!!!!!!!!
+
+![image](https://user-images.githubusercontent.com/90091174/174979575-46faf271-2331-4075-9e5c-44afac6382e9.png)
+
 
 
 # 參考資料:
