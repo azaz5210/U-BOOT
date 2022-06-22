@@ -169,7 +169,7 @@ kill -9 pid 關閉程序
 
 一個適合製作嵌入式檔案系統的軟體工具
 
-## 編譯安裝
+## 16.編譯安裝
 
 ![image](https://user-images.githubusercontent.com/90091174/174972738-88b838dd-1e60-427b-950c-6681aa55eef4.png)
 
@@ -198,7 +198,9 @@ deb-src http://gb.archive.ubuntu.com/ubuntu/ trusty-proposed restricted main uni
 
 成功!!!!!!!!
 
-![image](https://user-images.githubusercontent.com/90091174/174979575-46faf271-2331-4075-9e5c-44afac6382e9.png)
+![image](https://user-images.githubusercontent.com/90091174/174981780-5217f681-2cb1-4886-a69a-157a9562a4c5.png)
+
+## 17.到BusyBox檔案下修改Makefile文件(他的文件名稱就叫這個)
 
 
 
