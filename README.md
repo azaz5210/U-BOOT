@@ -202,6 +202,20 @@ deb-src http://gb.archive.ubuntu.com/ubuntu/ trusty-proposed restricted main uni
 
 ## 17.到BusyBox檔案下修改Makefile文件(他的文件名稱就叫這個)
 
+![image](https://user-images.githubusercontent.com/90091174/174983526-1dd56f1f-5137-4d01-8fe0-668ddc4958f4.png)
+
+![image](https://user-images.githubusercontent.com/90091174/174984303-3c6d10b6-570f-4701-b83d-c6ef16ad1a13.png)
+
+## 18.配置
+
+### 指令: make defconfig
+
+#### 發生問題
+
+![image](https://user-images.githubusercontent.com/90091174/174990108-371cc13c-b719-44a2-b8a7-14e848dc89fa.png)
+
+尋找網路求解，可能原因為在root底下並沒有gcc的相關套件
+
 
 
 # 參考資料:
