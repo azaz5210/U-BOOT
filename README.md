@@ -179,7 +179,7 @@ kill -9 pid 關閉程序
 
 解決辦法
 
-您可以直接編輯源列表 ( /etc/apt/sources.list)。我認為您需要添加/取消註釋這些行：
+### 您可以直接編輯源列表 ( /etc/apt/sources.list)。我認為您需要添加/取消註釋這些行：
 
 deb-src http://archive.ubuntu.com/ubuntu trusty main restricted #Added by software-properties
 deb-src http://gb.archive.ubuntu.com/ubuntu/ trusty restricted main universe multiverse #Added by software-properties
@@ -190,11 +190,11 @@ deb-src http://gb.archive.ubuntu.com/ubuntu/ trusty-proposed restricted main uni
 
 ![image](https://user-images.githubusercontent.com/90091174/174977809-b9d46f79-546b-47dc-ae67-aa4f8c3675d5.png)
 
-安裝dpkg-dev套件
+### 安裝dpkg-dev套件
 
 指令:sudo apt-get -y install dpkg-dev
 
-再重新安裝busybox
+### 再重新安裝busybox
 
 成功!!!!!!!!
 
