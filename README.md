@@ -214,7 +214,7 @@ deb-src http://gb.archive.ubuntu.com/ubuntu/ trusty-proposed restricted main uni
 
 ![image](https://user-images.githubusercontent.com/90091174/174990108-371cc13c-b719-44a2-b8a7-14e848dc89fa.png)
 
-尋找網路求解，可能原因為在root底下並沒有gcc的相關套件
+# 無法解決
 
 
 
