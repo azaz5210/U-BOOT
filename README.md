@@ -136,8 +136,6 @@ sudo apt-get install python
 
 ## 15.編譯核心、模組、dtb檔案
 
-### 對，我很懶 第二個指令可以跳過  他的檔案他媽的有夠大，會讓你重灌
-
 ![image](https://user-images.githubusercontent.com/90091174/173397544-146211b3-3370-4ce8-8f41-72a53c01b862.png)
 
 ## 有錯誤再用下圖指令
@@ -166,6 +164,22 @@ kill -9 pid 關閉程序
 
 ![image](https://user-images.githubusercontent.com/90091174/173548864-5f107f41-224c-497c-8abf-289629d91caa.png)
 
+# BusyBOX
+一個整合100多個Linux常用命令和工具的軟體
+
+一個適合製作嵌入式檔案系統的軟體工具
+
+## 編譯安裝
+
+![image](https://user-images.githubusercontent.com/90091174/174972738-88b838dd-1e60-427b-950c-6681aa55eef4.png)
+
+遇到問題
+
+![image](https://user-images.githubusercontent.com/90091174/174972873-6293bba9-bf3d-4eaa-8866-e7d26f8844fc.png)
+
+解決辦法
+
+
 
 
 # 參考資料:
@@ -173,4 +187,6 @@ kill -9 pid 關閉程序
 https://cloud.tencent.com/developer/article/1018022?from=15425
 
 https://www.gushiciku.cn/pl/pTch/zh-tw
+
+
 
