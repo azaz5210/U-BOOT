@@ -5,6 +5,8 @@ B0822003陳弘昇、B0942003 賴柏楷、B0942209 吳崧瑋
 
 全稱Universal Boot Loader,是遵循GPL條款的開源程式碼項目
 
+U-Boot 是一個主要用於嵌入式系統的啟動載入程式
+
 這次是以QEMU搭建linux+u-boot
 
 # QEMU簡介
