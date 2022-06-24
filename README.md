@@ -157,12 +157,21 @@ sudo apt-get install python
 
 ![image](https://user-images.githubusercontent.com/90091174/173548582-8728278a-b3e0-4b11-a787-7229dbf60fcb.png)
 
-## 關閉qemu
-ps -a檢視程序號
+## 失敗 
 
-kill -9 pid 關閉程序
+資料夾並無此檔案
 
-![image](https://user-images.githubusercontent.com/90091174/173548864-5f107f41-224c-497c-8abf-289629d91caa.png)
+![image](https://user-images.githubusercontent.com/90091174/175468180-d3d979a4-5c62-45b7-bb8c-0f6d3aee027c.png)
+
+尋找問題 在這個資料結發現相關訊息
+
+![image](https://user-images.githubusercontent.com/90091174/175468441-1448634e-1c39-43de-bdd1-cde6922a1bb9.png)
+
+執行
+
+![image](https://user-images.githubusercontent.com/90091174/175473116-e1da4900-4b0a-4821-a35f-6b480036c174.png)
+
+ 無法解決-----先跳過
 
 # BusyBOX
 一個整合100多個Linux常用命令和工具的軟體
